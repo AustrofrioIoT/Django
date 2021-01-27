@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+Pillow = "*"
+channels = "==2.4.0"
+channels-redis = "==2.4.2"
+twisted = "*"
+django-admin-interface = "*"
+django-embed-video = "==1.3.3"
+websocket_client = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
